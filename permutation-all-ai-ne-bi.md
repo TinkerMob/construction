@@ -8,4 +8,4 @@ The permutation only exists if the number of the most frequent element is less o
 
 ## Method
 
-Sort the array, we can find a permutation that maps each element at index $i$ to the element at $(\lceil n / 2 \rceil + i)~\text{mod}~n$.
+Sort the array, we can find a permutation that maps each element at index $i$ to the element at $(\lfloor n / 2 \rfloor + i)~\text{mod}~n$.
